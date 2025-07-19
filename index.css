@@ -1,0 +1,62 @@
+body
+{
+    background-image: url("img/il_fullxfull.2133839496_r679_426a68a0-ef8b-4abc-82fe-55389ca6db99_480x480@2x.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+    text-decoration: none;
+    background-color: slateblue;
+}
+header
+{
+    height: 100vh;
+    display: flex;
+}
+header div h1
+{
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div
+{
+    padding: 20px;
+    margin: auto;
+}
+.count
+{
+    text-align: center;
+    border: solid 1px white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+    margin-bottom:0.5rem ;
+    background-color: black;
+}
+.incremntBTn,
+.resetBTn
+{
+    margin-bottom: 1rem;
+    padding: 5px 40px;
+    background-color: green;
+    outline: none;
+    border: none;
+    
+}
+.incremntBTn
+{
+    
+}
+.incremntBTn:hover
+{
+    background-color: grey;
+}
+.resetBTn
+{
+    padding: 5px 40px;
+    background-color: red;
+}
